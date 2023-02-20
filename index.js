@@ -62,6 +62,10 @@ function App() {
                 <div onClick={() => display('0')} className='padButton zero dark-gray'>0</div>
                 <div onClick={() => display('.')} className='padButton dot dark-gray'>.</div>
             </div>
+
+            <div className='footer'>
+                <h5>*This project is continuously being updated in order to improve functionality</h5>
+            </div>
         </div>
     );
 }
